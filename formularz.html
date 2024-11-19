@@ -25,7 +25,7 @@
  <h3> tresc</h3>
  </div>
  
-<div style="background-color:gray; clear:both;"><center>&copy; B.M. october 2024</center></div>
+<div style="background-color:gray; clear:both;"><center>&copy; H.P. october 2024</center></div>
 <form>
 <p>IMIE i NAZWISKO:<input type="text" name="nazwisko_i_imie" size="30"/></p>
 <p>ADRES E-MAIL:<input type="text" name="email" value="email@wp.pl"30"/></p>
@@ -40,8 +40,41 @@
 <p><input type="checkbox" name="NIE" value="niemiecki" checked />NIE </p>
 <p><input type="checkbox" name="ANG" value="angielski" checked />ANG </p>
 <p><input type="checkbox" name="ROS" value="rosyjski" checked />ROS </p>
-<p>wyślij plik<input type="file" name="plik" size="30" /></p>
-<input type="submit" value="wyslij" />
+<p>
+<select name="ulubione owoce" size="5" multiple><br/>
+ <optgroup label="ulubione owoce">
+    <option value="truskawki"/>truskawki
+	<option value="banany"/>banany
+	<option value="maliny"/>maliny
+ </optgroup>
+</select>
+</p> 
+<p>
+<select id="days[]" name="days[]" size="7" multiple>
+  <optgroup label="dni wolne">
+     <option>SOBOTA</option>
+     <option>NIEZDIELEA</option>
+  </optgroup>
+<optgroup label="dni robocze">
+     <option>Poniedzialek</option> 
+     <option>wtorek</option>  
+     <option>sroda</option>  
+     <option>czwartek</option>  
+     <option>piatek</option>
+</optgroup></select></p>
+ <textarea name="w" cols="5" rows="5" style="width:220px; height:60px;" wrap="virtual"></textarea>
+ 
+ <p><textarea cols="50" rows="6">
+ wprowadz swój adres
+ </textarea></p>
+ <p><input type="reset" id="reset"/></p>
+ <p><input type="button" id="kupteraz" name="przcisk zakupu" onclick="alert('zakupiono')"> kup teraz!</button></p>
+                                                                                                        
+	 
+<p>wyślij plik<input type="file" name="plik" size="30" /></p><br/>
+<input type="submit" value="wyslij" /><br/>
+
+
 
 
 
@@ -53,6 +86,6 @@
 
  </div>
  
-<div style="background-color:gray; clear:both;"><center>&copy; B.M. october 2024</center></div>
+<div style="background-color:gray; clear:both;"><center>&copy; H.P. october 2024</center></div>
 </body>
 </html>
