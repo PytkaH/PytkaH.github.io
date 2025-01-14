@@ -1,112 +1,122 @@
 <!DOCTYPE html>
-<html lang="pl-PL'>
-   <meta charset="iso-8859-2"
-   <meta name="viewport" content="width=device-width,initial-scale=scale=1.0"/>
+<html lang="pl">
 <head>
-<title> wlasciowosci css</title>
-<style type="text/css">
-
-	 
-p {
-    font-family:"courier new";
-	font-style:italic;
-	font-weight:500;
-	font-size:20px;
-	color:maroon;
-	}
-	
-blockquote {
-             font-family:fantasy;
-	         font-style:italic;
-	         font-weight:bolder;
-	         font-size:30px;
-	         color:teal;
-             }
-h1 {
-     text-decoration:line-through;
-	 word-spacing:100%;
-	 text-align:center;
-	 color:green;
-	 text-transform:lowercase;
-	 text-indent:20px;
-	 letter-spacing:2px;
-	 }
-h4 {
-     color:purple;
-	 text-decoration:line-through;
-	 word-spacing:2cm;
-	 text-align:right;
-	 text-transform:capitalize;
-	 text-indent:50px;
-	 letter-spacing:5px;
-	 }
-h3 {
-     text-decoration:underline;
-	 word-spacing:15px;
-	 text-align:left;
-	 color:red;
-	 text-transform:uppercase;
-	 }
-	 
-body {
-    background-image: url(PSI/html/foty/genel.jpg);
-	background-repeat: repeat-x;
-	background-attachment: fixed;
-	background-position: bottom 10%;
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Wlasciwosci css</title>
+	<link/>
+    <style>
+		p{
+			font-family:"Courier New";
+			font-style:italic;
+			font-weight:500;
+			font-size:20px;
+            color:maroon;
 		}
-h3.klasa1 { border-style:ridge;
-			border-color:yellow;
-			color:silver;	
-			text-align:right;
-			}		
-			
-            
-
-div#obramowanie1 { border-style:dashed;
-				   border-color:aqua;	
-				   border-width:medium;
-				   width:40%;
-				   background-color:yellow;
-				   }		
-
-h2.klasa  {
-					border-style:dashed;
-				   border-color:aqua;	
-				   border-width:medium;
-					background-color:yellow;
-					width:70%;
-					}
-					
-h3.klasa2 {
-			padding:5pt;
-			text-align:center;
-			color:white;
-			background-color:fuschia;
-			border-width:3px;
-			border-style:dotted;
-			width:70%;
-			font-size:xx-large;
+        blockquote{
+            font-family:fantasy;
+            font-style:italic;
+            font-weight: bolder;
+            font-size: 30px;
+            font-variant: small-caps;
+            color:teal;
+        }
+        em{
+            color:purple;
+            font-size: 50px;
+            font-weight: 500;
+            font-style:normal;
+            padding: 0 0 0 0;
+        }
+		#gora{
+			letter-spacing: 100%;
+			color:green;
+			text-decoration:overline;
+			text-align: center;
 			padding:20px;
-			}	
- 
-         
-	 
+			word-spacing: 2px;
 
+		}
+		h3{
+			text-decoration: underline;
+			word-spacing: 15px;
+			text-align: left;
+			color:red;
+			text-transform: uppercase;
+		}
+		h4{
+			color:purple;
+			text-decoration: line-through;
+			line-height: 2cm;
+			direction: rtl;
+			font-variant: small-caps;
+			text-indent: 50px;
+			letter-spacing: 5px;
+		}
+		span{
+			color:red;
+			word-spacing: 10px;
+			text-decoration: underline;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		body{
+			background-image: url(foty/giphy.webp);
+			background-repeat: no-repeat;
+			background-position-y: center;
+			background-position-x: right;
+			
+		}
+		#obramowanie1{
+			width: 40%;
+			color:aqua;
+			border: 1;
+			border-style: dashed;
+		}
+		.zadanie2{
+			border-color: aqua;
+			background-color: yellow;
+			border-style: dashed;
+			text-align: right;
+			border-width: medium;
 
+		}
+		.zadanie3{
+			color:silver;
+			background-color: black;
+			border: 1px ridge yellow;
+			font-variant: small-caps;
+			text-align: right;
+		}
+		#zadanie4{
+			text-decoration: overline;
+			letter-spacing: 5pt;
+			text-align: center;
+			color:white;
+			background-color: fuchsia;
+			border: 3px dotted white;
+			padding: 20px;
+			width: 70%;
+		
+		}
+		h1#zadanie5{
+			border: thick groove purple;
+			background-color: rgb(148, 148, 59);
+			font-family: sans-serif;
+		}
+		#lewo{
+			float:left;
+			width:30%;
+			height: 690px;
+		}
+		#prawo{
+		}
 
-
-
-
-
-
-
-
-
-
-</style>
+		
+	</style>
 </head>
 <body>
- <div style="background-color:gray;">
+	<div style="background-color:gray;">
    <h1><center>psi- Hubert Pytka</center></h1>
  </div>
  <div style="float:left;width:30%; height:550px;">
@@ -128,76 +138,82 @@ h3.klasa2 {
 <h3>linki<h3>
 <a href="http://www.google.com"><img src="foty/google.PNG" width="50px"></a><br/>
 <a href="http://www.google.com"><img src="foty/tsi.PNG" width="100px"></a><br/>
-<h3>CSS</h3>
+<h3>CSS<h3>
 
  </div>
- <div style="float:right; width:70%;">
- <h3>Zadanie 1 czcionka</h3> </br>
- 
-<p> formatowanie akapitu p:
-kroj czcionki-courier new styl-pochylenie grubosc-500 rozmiar-20px ; </p> </br>
+	<div style="float:right; width:70%;" id="prawo">
+        <span><b>ZADANIE I - CZCIONKA:</b></span><br/>
+        <p>Formatowanie akapitu p: krój czcionki - Courier New, styl - pocyhelenie, grubość - 500, rozmiar - 20px, kolor - maroon</p>
 
-zadanie 1a czcionka </br>
-<blockquote> formatowanie blockquote: kroj czcionki fantasy </blockquote></br>
+        <span><b>ZADANIE IA - CZCIONKA:</b></span><br/>
+        <blockquote>Formatowanie blockquote: krój czcionki - fantasy, styl - pochylenie, grubość - bolder, rozmiar - 30px, typ czcionki , kolor - teal</blockquote>
 
-<h3>zadanie 2</h3><br />
-<h1>Formatowanie tytułu h1:
-dekoracja tekstu – nakreślenie,</br>
-odstępy między wierszami – 100%,</br>
-wyśrodkowanie,</br>
-kolor tekstu – zielony,</br>
-zamiana tekstu - małe litery</br>
-wcięcie wiersza - 20px;</br>
-odstępy miedzy znakami: 2px</br>
-</h1></br>
-<h3>zadanie IIa - TEKST:</h3></br>
+        <span><b>ZADANIE IB - CZCIONKA:</b></span><br/>
+        <em>
+            Formatowanie (wyróżnionego tekstu - uwypuklenia) EM: dowolne !!<br/>
+            kolor - fioletowy, rozmiar - 50px, grubość - 500, styl - normalny, odstęp - 0 0 0 0
+        </em>
+		<br/>
+		<span><b>ZADANIE II - TESKT:</b></span>
+		<h1 id="gora">
+			Formatowanie tytułu h1:<br/>
+			dekoracja tekstu – nakreślenie,<br/>
+			odstępy między wierszami – 100%,<br/>
+			wyśrodkowanie,<br/>
+			kolor tekstu – zielony,<br/>
+			zamiana tekstu - małe litery<br/>
+			wcięcie wiersza - 20px;<br/>
+			odstępy miedzy znakami: 2px<br/>
+		</h1>
 
+		<span><b>ZADANIE IIA - TEKST:</b></span> <br/>
+		<h4>
+			Formatowanie tytułu h4:<br/>
+			kolor tekstu –fioletowy, dekoracja tekstu – przekreślenia, odstępy między liniami – 2cm,<br/>
+			tekst do prawej strony, zmiana tekstu – kapitaliki, wcięcie pierwszego wiersza - 50px;<br/>
+			odstępy miedzy znakami: 5px:<br/>
 
+		</h4>
 
+		<span><b>zadanie IIb - MODYFIKOWANIE ZADAŃ:</b></span><br/>
+		<h3>
+			Formatowanie tytułu h3:<br/>
+			dekoracja tekstu – podkreślenie;<br/>
+			odległość między wyrazami w tekście: 15px;<br/>
+			text-align: left;<br/>
+			color: red;<br/>
+			zmiana wielkości liter w tekście: duże litery;<br/>
+		</h3>
+		
+		<hr/>
 
-<h4>Formatowanie tytułu h4:
-kolor tekstu –fioletowy, dekoracja tekstu</br> – przekreślenia, odstępy między liniami – 2cm,</br>
-tekst do prawej strony, zmiana tekstu </br>– kapitaliki, wcięcie pierwszego wiersza - 50px;</br>
-odstępy miedzy znakami: 5px:</br>
-</h4>
-<h3>zadanie IIb - MODYFIKOWANIE ZADAŃ:</h3></br>
+		<span>ZADANIE III – TŁO:</span><br/>
+		tło obrazkowe url(foty/tlo.jpg), nieruchome, z powtarzaniem w poziomie, z przesunięciem o 10 % w dół strony:
+		<div id="obramowanie1">
+			<span>zadanie IV – OBRAMOWANIE:</span><br/>
+			<br/>
+		</div>
+		
 
-<h3>Formatowanie tytułu h3:
-dekoracja tekstu – podkreślenie;</br>
-odległość między wyrazami w tekście: 15px;</br>
-text-align: left;</br>
-color:red;</br>
-zmiana wielkości liter w tekście: duże litery;</br>
-</h3>
+			<h2 class="zadanie2">	
+			zadanie IV – OBRAMOWANIE:<br/>
+			Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, grubość - średnia, tło żółte
+			</h2>
+			
+		<h1 class="zadanie3">
+			KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
+			DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJI
+		</h1>
 
+		<h1 id="zadanie4">
+			TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%
+		</h1>
 
-<h3>zadanie III – TŁO:</h3></br>
-</br>
- <div id="obramowanie1"><h3>zadanie IV – OBRAMOWANIE:</div></h3></br>
- </br>
- 
+		
 
-<h2 class="klasa"><h3>Ustawienie obr. dla h2: styl – kreskowanie, kolor obr. – aqua, <br / >
-grubość - średnia, tło żółte<h3/></h2>
-<br/>
-<br/>
-
-<h3 class="klasa1"><h3>KOLOR TEKSTU: SREBRNY, CZARNE TŁO, ŻÓŁTE OBRAMOWANIE, STYL OBRAMOWANIA: RIDGE,
-DUŻE LITERY / KAPITALIKI, TEKST USTAWIONY: DO PRAWEJ, BRAK DEKORACJ</h5></h3></h3>
-</br >
-</br>
-
-<h3 class="klasa2">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, 
-TŁO FUCHSIA, 
-OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%</h3>
-
-
-
-
-
-
- </div>
-
-<div style="background-color:gray; clear:both;"><center>&copy; B.M. october 2024</center></div>
+	</div>
+	<div style="background-color:grey;clear:both;">
+		<center> &copy; H.P., October 2024</center>
+	</div>
 </body>
 </html>
