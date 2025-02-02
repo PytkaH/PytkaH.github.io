@@ -43,6 +43,7 @@
 			text-align: left;
 			color:red;
 			text-transform: uppercase;
+			cursor:crosshair;
 		}
 		h4{
 			color:purple;
@@ -111,6 +112,89 @@
 		}
 		#prawo{
 		}
+		#zadanie7{
+			text-decoration: overline;
+			letter-spacing: 5pt;
+			text-align: center;
+			background-clip: content-box;
+			color:white;
+			background-color: fuchsia;
+			border: 3px dotted white;
+			padding: 20px;
+			width: 70%;
+		
+		}
+		h6{
+			color:silver;
+			background-color: yellow;
+			border: 1px ridge black;
+			font-variant: normal;
+			text-align:center ;
+		}
+		
+		h2.ramka1{
+			background-color: white;
+			color:black;
+			padding: 10px;
+			width:70%;
+			border: 30px solid transparent;
+			border-image: url(foty/floper.png) 50 stretch;
+		}
+		h2.ramka2{
+			background-color: white;
+			color:black;
+			padding: 10px;
+			width:70%;
+			border: 30px solid transparent;
+			border-image: url(foty/floper.png) 50 round;
+		}
+		 h2.ramka3{
+			background: none;
+			color:black;
+			padding: 5px;
+			width:33%;
+			border: 50px solid;
+			border-image: ;
+		 }      
+		 ul.punkty{
+			list-style-type: circle;
+			list-style-position: outside;
+			color:mediumorchid;
+			font-family: sans-serif;
+
+
+		 }
+		 ol.numer{
+			list-style-type: upper-alpha;
+			list-style-position: inside;
+			color:lightskyblue;
+			font-family: inherit;
+
+		 }
+		 ol.gwiazda{
+			list-style-position: inside;
+			list-style-image: url(multi/GIF.gif);
+
+		 }
+		 table.tr.td{
+			cursor:crosshair;
+		 }
+		 div#rozmiar{
+			height:8%;
+			width:45%;
+			color:fuchsia;
+			
+			border:1px solid khaki;
+
+		 }
+	
+		
+
+
+
+
+
+
 
 		
 	</style>
@@ -135,6 +219,8 @@
 <a href="canvas.html">canvas</a><br />
 <a href="wlasciowosci_css.html">wlasciowosci_css</a><br />
 <a href="multimedia.html">multimedia</a><br />
+<a href="wlasciwosci_css.html">multimedia</a><br />
+
 <h3>dokument</h3>
 <a href="doc/lista2c.docx" target="new">lista grupy II w 2c</a></br>
 <h3>linki<h3>
@@ -190,7 +276,7 @@
 		<hr/>
 
 		<span>ZADANIE III – TŁO:</span><br/>
-		tło obrazkowe url(foty/tlo.jpg), nieruchome, z powtarzaniem w poziomie, z przesunięciem o 10 % w dół strony:
+		tło obrazkowe url(foty/kot.jpg), nieruchome, z powtarzaniem w poziomie, z przesunięciem o 10 % w dół strony:
 		<div id="obramowanie1">
 			<span>zadanie IV – OBRAMOWANIE:</span><br/>
 			<br/>
@@ -211,7 +297,97 @@
 			TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%
 		</h1>
 
+		<h1 id="zadanie7">TEKST NAKREŚLONY, ODSTĘPY MIĘDZY ZNAKAMI W TEKŚCIE 5 PT, WYŚRODKOWANY TEST, KOLOR TEKSTU
+		 BIAŁY, TŁO FUCHSIA, OBRAMOWANIE 3PX KROPOWANE BĄDŹ INSET BIAŁE, ODSTĘP 20 PX, SZEROKOŚĆ 70%
+		 </h1>
+		 
+		 
+		 <h6>zadanie doadatkowe</h6>
+
+
+
+
+		 <h2 class="ramka1">zadanie IV – OBRAMOWANIE:
+		Ustawienie obramowania obrazkowego dla nagłówka h2 - z</br> 
+		identyfikatorem "ramka1"</br> 
+		TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border:</br>  30px solid transparent;
+		border-image: url(folder/nazwa.jpg) 50 stretch;</br> 
+
+		OBRAZ JEST ROZCIĄGNIĘTY ABY WYPEŁNIĆ CAŁY OBSZAR.</br> </h2>
+
 		
+		
+
+		<h2 class="ramka2">zadanie IV – OBRAMOWANIE:</br> 
+		Ustawienie obramowania obrazkowego dla nagłówka h2 - z identyfikatorem "ramka2"</br> 
+		TŁO: białe; TEKST: czarny, ODSTĘP: 10px, SZEROKOŚĆ: 70%; border: 30px solid transparent;</br> 
+		border-image: url(folder/nazwa.jpg) 50 round;</br> 
+
+		OBRAZ WYPEŁNIA OBSZAR. W RAZIE POTRZEBY JEST PRZESKALOWNY, ABY WYPEŁNIĆ OBSZAR.</br> </h2>
+		</br>
+	</br>
+</br>
+</br>
+<h3>zadanie VI – LISTY:</h3>
+		<ul class="punkty">5 zalet psi-
+		<li>floper</li>
+		<li>floper</li>
+		<li>floper</li>
+		<li>floper</li>
+		<li>floper</li>
+		</ul>
+	</br></br>
+</br>
+		<ol class="numer">trzy wady 
+			<li>genel</li>
+			<li>genel</li>
+			<li>genel</li>
+
+		</ol>
+		
+		<ol class="'gwiazda">
+			<li style="list-style-image:url(multi/GIF.gif);">floper</li>
+			<li style="list-style-image:url(multi/floper.gif);">ma</li>
+			<li style="list-style-image:url(multi/2.gif);">ma</li>
+			<li style="list-style-image:url(multi/3.gif);">ma</li>
+			<li style="list-style-image:url(multi/2.gif);">ma</li>
+			<li style="list-style-image:url(multi/3.gif);">ma</li>
+			
+			
+		</ol>
+		<h3> kursor</h3>
+		<h3><table border="1" width="60px">
+			<tr>
+				 <td>1</td>
+				 <td>2</td>
+			</tr>
+		</table>
+
+
+
+		</table>
+		<h3>zadanie VIII – ROZMIAR:</h3>
+		<div id="rozmiar">piotr</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 	</div>
 	<div style="background-color:grey;clear:both;">
